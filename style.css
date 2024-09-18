@@ -102,6 +102,19 @@ strong {
     padding-left: 0.5rem;
     text-align: center;
 }
+.block-reactions {
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+}
+.emoji {
+    margin: 0 0.3rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.emoji:hover {
+    transform: scale(1.5);
+}
 
 @media (max-width: 60rem) {
     .block-holder {
@@ -181,5 +194,15 @@ strong {
     .main-container {
         max-width: 19rem;
         margin: 0 auto;
+    }
+    .block-reactions {
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .emoji {
+        margin: 0 0.1rem;
+    }
+    .emoji:hover {
+        transform: scale(1.3);
     }
 }
