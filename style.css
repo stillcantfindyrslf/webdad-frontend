@@ -16,7 +16,7 @@ body {
     padding: 1.5rem 0;
     background-color: var(--holder-bg-color);
     margin-bottom: 3rem;
-    margin-top: 6.5rem;
+    margin-top: 10rem;
 }
 .header-title {
     text-align: center;
@@ -29,7 +29,7 @@ body {
     height: 100%;
 }
 .image-container {
-    width: 70rem;
+    width: 64rem;
     margin: 0 auto;
 }
 .inner-container {
@@ -195,6 +195,24 @@ strong {
     font-size: 1.1rem;
     color: #b4b5b8;
 }
+.nav-btn {
+    height: 2.5rem;
+    width: 7.1rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+    cursor: pointer ;
+    background-color: #1874FF;
+}
+select {
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+}
 .email-btn {
     height: 2.5rem;
     width: 7.1rem;
@@ -206,6 +224,37 @@ strong {
     color: white;
     cursor: pointer ;
     background-color: #1874FF;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: #fff;
+    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1)
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+.logo {
+    padding: 0.75rem 0;
+}
+.menu-item-link {
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    margin-right: 2rem;
+}
+.burger {
+    display: none;
 }
 
 @media (max-width: 60rem) {
@@ -221,10 +270,10 @@ strong {
         font-weight: 500;
     }
     .image-container {
-        width: 43rem;
+        max-width: 45rem;
     }
     .main-container {
-        max-width: 43rem;
+        max-width: 45rem;
         margin: 0 auto;
     }
     .section-table {
@@ -275,6 +324,16 @@ strong {
     .email-btn {
         height: 2.5rem;
         width: 6.5rem;
+    }
+    .container-menu {
+        max-width: 45rem;
+    }
+    .nav-list {
+        display: none;
+    }
+    .burger {
+        margin-left: -8rem;
+        display: block;
     }
 }
 
@@ -362,5 +421,11 @@ strong {
         height: 2.6rem;
         width: 8rem;
         margin-left: 0;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .container-menu {
+        max-width: 18rem;
     }
 }
