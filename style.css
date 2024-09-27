@@ -66,6 +66,9 @@ strong {
 .link {
     text-decoration: none;
 }
+.link:hover {
+    color: #519DFF;
+}
 .main-container {
     max-width: 50rem;
     margin: 0 auto;
@@ -141,7 +144,12 @@ strong {
     border-radius: 1rem;
     margin: 0.7rem;
     cursor: pointer;
+    transition: transform 0.3s;
     box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+.learn-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0.35rem 0.4rem rgba(0, 0, 0, 0.2);
 }
 .learn-more {
     text-decoration: none;
@@ -210,6 +218,9 @@ strong {
     cursor: pointer ;
     background-color: #1874FF;
 }
+.nav-btn:hover {
+    background-color: #519DFF;
+}
 .email-btn {
     height: 2.5rem;
     width: 7.1rem;
@@ -221,6 +232,9 @@ strong {
     color: white;
     cursor: pointer ;
     background-color: #1874FF;
+}
+.email-btn:hover {
+    background-color: #519DFF;
 }
 select {
      border: none;
