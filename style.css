@@ -325,6 +325,7 @@ footer {
     line-height: 1.5rem;
     color: #fff;
     margin-top: 2rem;
+    max-width: 17rem;
 }
 .social {
     grid-area: social;
@@ -354,6 +355,7 @@ footer {
     font-size: 0.8rem;
     color: white;
     margin: 0.6rem;
+    max-width: 14rem;
 }
 
 .footer-bottom {
@@ -435,7 +437,7 @@ footer {
     .input-email {
         height: 2.5rem;
         width: 13rem;
-        font-size: 1rem;
+        font-size: var(--basic-font-size);
         padding-left: 0.5rem;
         margin-left: 3rem;
         box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -521,7 +523,7 @@ footer {
     }
     .text {
         font-weight: 300;
-        font-size: 1.1rem;
+        font-size: var(--basic-font-size);
         line-height: 1.7rem;
         margin-bottom: 4rem;
         color: var(--primary-text-color);
