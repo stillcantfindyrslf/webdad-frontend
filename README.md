@@ -1,21 +1,21 @@
 # 🚀 WebDad Frontend
 
-Современный учебный лендинг про профессии в IT: направления разработки, дизайн, маркетинг и ориентиры по зарплатам.
+A modern educational landing page about IT careers: development tracks, design, marketing, and salary benchmarks.
 
-## 🌐 Демо (GitHub Pages)
+## 🌐 Live Demo (GitHub Pages)
 
 👉 https://stillcantfindyrslf.github.io/webdad-frontend/
 
-> Если ссылка пока не открывается, включите GitHub Pages по инструкции ниже.
+> If the link is not available yet, enable GitHub Pages using the instructions below.
 
-## ✨ Что внутри
+## ✨ What’s Inside
 
-- адаптивная страница на **HTML + CSS + JavaScript**
-- подробные блоки по IT-профессиям
-- визуальные секции с иллюстрациями
-- таблица со средними зарплатами
+- responsive page built with **HTML + CSS + JavaScript**
+- detailed sections about IT professions
+- visual blocks with illustrations
+- salary comparison table
 
-## 📁 Структура проекта
+## 📁 Project Structure
 
 ```text
 webdad-frontend/
@@ -25,32 +25,32 @@ webdad-frontend/
 └── img/
 ```
 
-## 🛠️ Локальный запуск
+## 🛠️ Run Locally
 
-### Вариант 1 — быстро
-Откройте файл `index.html` в браузере.
+### Option 1 — Quick Start
+Open `index.html` directly in your browser.
 
-### Вариант 2 — через локальный сервер
+### Option 2 — Local Server
 ```bash
 cd /home/runner/work/webdad-frontend/webdad-frontend
 python -m http.server 5500
 ```
 
-После запуска откройте: `http://localhost:5500`
+After launch, open: `http://localhost:5500`
 
-## ☁️ Публикация на GitHub Pages
+## ☁️ Publish on GitHub Pages
 
-1. Загрузите проект в репозиторий GitHub `stillcantfindyrslf/webdad-frontend`.
-2. Перейдите в **Settings → Pages**.
-3. В блоке **Build and deployment** выберите:
+1. Push the project to the GitHub repository `stillcantfindyrslf/webdad-frontend`.
+2. Go to **Settings → Pages**.
+3. In **Build and deployment**, select:
    - **Source**: `Deploy from a branch`
-   - **Branch**: `main` (или `master`)
+   - **Branch**: `main` (or `master`)
    - **Folder**: `/ (root)`
-4. Нажмите **Save**.
-5. Подождите 1–3 минуты и откройте:
+4. Click **Save**.
+5. Wait 1–3 minutes, then open:
    `https://stillcantfindyrslf.github.io/webdad-frontend/`
 
-## 👤 Автор
+## 👤 Author
 
-**Савич Илья**  
-Проект для WebDad
+**Ilya Savich**  
+Project for WebDad
