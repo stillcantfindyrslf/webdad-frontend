@@ -35,7 +35,3 @@ python -m http.server 5500
 ```
 
 After launch, open: `http://localhost:5500`
-
-
-**Ilya Savich**  
-Project for WebDad
